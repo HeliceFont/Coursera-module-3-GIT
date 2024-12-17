@@ -81,7 +81,8 @@ Para añadir nuestra clave a Github, necesitamos obtener una copia de la clave p
 Encuentre el nombre del archivo de claves utilizando el siguiente comando. 
 ls ~/.ssh/
 A continuación, utilice el siguiente comando para copiar el archivo, sustituyendo <SU CLAVE> por el nombre del archivo de claves de su dispositivo. 
-pbcopy < ~/.ssh/<YOUR KEY>.pub
+pbcopy < ~/.ssh/<YOUR KEY>.pub o en windows con la terminal bash de GIT cat ~/.ssh/id_ed25519.pub 
+Esto generará la clave pública
 
 Añadir sus claves a Github
 Ahora tenemos que añadir nuestra clave pública a Github para dar acceso a los repositorios que creemos.
